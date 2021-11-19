@@ -20,7 +20,7 @@ int main()
 	if(phepToan =="-")
 		cout<<"Hieu la: "<<hieu(a,b)<<endl;
 	if(phepToan =="*")
-		cout<<"Tich la: "<<tich(a,b)<<endl;
+		cout<<"Tich la: "<<tich(a,b);
 	system("pause");
 	return 0;
 }
