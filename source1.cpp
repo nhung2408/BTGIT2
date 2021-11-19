@@ -1,10 +1,12 @@
 #include <iostream>
 using namespace std;
-int tong(int a, int b)
+int hieu(int a, int b)
 {
-	return a+b;
+	return a-b;
 }
-
+int tich(int a,int b){
+return a*b;
+}
 int main()
 {
 	int a, b;
@@ -13,10 +15,12 @@ int main()
 	cin >> a;
 	cout << "Nhap so nguyen 2: ";
 	cin >> b;
-	cout << "Chon phep toan (+,-) ";
+	cout << "Chon phep toan (+,-,*) ";
 	cin >> phepToan;
-	if(phepToan =="+")
-		cout<<"Tong la: "<<tong(a,b)<<endl;
+	if(phepToan =="-")
+		cout<<"Hieu la: "<<hieu(a,b)<<endl;
+	if(phepToan =="*")
+		cout<<"Tich la: "<<tich(a,b)<<endl;
 	system("pause");
 	return 0;
 }
